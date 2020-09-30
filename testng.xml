@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listners.ReportGeneration" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/JAYALAKSHMI A/Downloads/BookMyShow">
+        <classes>
+            <class name="Execution.SearchMovieExecution"></class>
+            <class name="Execution.ListYourShowActionsExecution"></class>
+            <class name="Execution.OfferActionsExecution"></class>
+            <class name="Execution.FooterTextValidationExecution"></class>
+            <class name="Execution.LanguageSelectionExecution"></class>
+            <class name="Execution.CitySelectionExecution"></class>
+            <class name="Execution.ValidateProductExecution"></class>
+            <class name="Execution.PriceFilterExecution"></class>
+        </classes>
+
+        </test>
+    </suite>
